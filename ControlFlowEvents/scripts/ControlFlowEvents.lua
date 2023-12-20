@@ -17,7 +17,7 @@ end
 --Registration of the 'main' function to the 'Engine.OnStarted' event
 Script.register('Engine.OnStarted', main)
 
--- Function is registered to the event which is raised from the flow
+---Function is registered to the event which is raised from the flow
 local function callFromFlow()
   print('ControlFlow says hello')
 end
